@@ -1,0 +1,192 @@
+.container {
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Menambah jarak antara tabel dan navbar */
+}
+
+table td,
+table th {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    align-items: center;
+    display: flex;
+}
+
+li {
+    margin-right: 30px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #333;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    table {
+        margin-top: 10px;
+    }
+
+    li {
+        margin-right: 15px;
+    }
+}
+
+.perizinan {
+    width: 50%;
+    margin: 200px auto; /* Untuk memposisikan form ke tengah halaman */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.perizinan h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.perizinan form {
+    text-align: center;
+}
+
+.perizinan label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.perizinan input[type='text'],
+.perizinan select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.perizinan input[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.perizinan input[type='submit']:hover {
+    background-color: #45a049;
+}
+
+.tambahBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tambahBtn:hover {
+    background-color: #45a049;
+}
+
+.tambahForm {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tambahForm h2 {
+    margin-bottom: 20px;
+}
+
+.tambahForm form ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tambahForm form ul li {
+    margin-bottom: 15px;
+}
+
+.tambahForm form label {
+    font-weight: bold;
+    color: #333;
+}
+
+.tambahForm form input[type='text'] {
+    width: calc(100% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.tambahForm form button[type='submit'] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tambahForm form button[type='submit']:hover {
+    background-color: #45a049;
+}
